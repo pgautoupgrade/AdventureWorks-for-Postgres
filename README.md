@@ -1,5 +1,8 @@
 # AdventureWorks for Postgres
 
+> [!WARNING]  
+> This is a fork containing a compressed version of the resulting database dump if you follow the instructions below. We use this database dump to automatically test the [pgautoupgrade container](https://github.com/pgautoupgrade/docker-pgautoupgrade).
+
 This project provides the scripts necessary to set up the OLTP part of the go-to database used in
 training classes and for sample apps on the Microsoft stack. The result is 68 tables containing HR,
 sales, product, and purchasing data organized across 5 schemas. It represents a fictitious bicycle
